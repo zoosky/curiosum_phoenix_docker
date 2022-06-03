@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: curiosum-meetup
-  replicas: 3
+  replicas: 6
   template:
     metadata:
       labels:
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: curiosum-meetup
-          image: miguelcoba/curiosum_meetup:1.0
+          image: zoosky/curiosum_meetup:1.0
           env:
             - name: SECRET_KEY_BASE
               value: H6YzvXqU/Qz6wuR/AHhDf2NxORkp1ClMCNC6z0XsObZeSdNScOt4KOnln2850hfB

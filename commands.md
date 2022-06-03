@@ -23,9 +23,11 @@ mix phx.gen.release --docker
 
 # Docker
 
-docker build -t miguelcoba/curiosum_meetup:1.0 .
+# docker build -t miguelcoba/curiosum_meetup:1.0 .
+docker build -t zoosky/curiosum_meetup:1.0 .
 
-docker push miguelcoba/curiosum_meetup:1.0
+# docker push miguelcoba/curiosum_meetup:1.0
+docker push zoosky/curiosum_meetup:1.0
 
 # Deploy
 

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: curiosum-meetup
-          image: miguelcoba/curiosum_meetup:1.0
+          image: zoosky/curiosum_meetup:1.0
           env:
             - name: SECRET_KEY_BASE
               valueFrom:
